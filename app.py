@@ -17,7 +17,7 @@ scaler = joblib.load(scaler_path)
 st.set_page_config(page_title="Prediksi Diabetes", layout="wide")
 
 # ====== Sidebar logo ======
-logo_path = os.path.join(BASE_DIR, "..", "assets", "logo_kucing_bulat.png")
+logo_path = os.path.join(BASE_DIR, "assets", "logo_kucing_bulat.png")
 img = Image.open(logo_path)
 st.sidebar.image(img, width=120)
 st.sidebar.markdown("### 😺 Prediksi oleh Kucing AI")
